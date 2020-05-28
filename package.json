@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^3.0.1",
+    "emasm": "https://bitbucket.org/raypulver/emasm",
     "truffle": "^5.1.27"
   }
 }

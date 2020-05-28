@@ -18,10 +18,9 @@ contract('Test.sol', () => {
       ['woop', ['0x1']]
     ]);
     const factory = new ethers.ContractFactory(Test.abi, Test.bytecode, provider.getSigner());
-    const tx = factory.getDeployTransaction([ runtimeCode ]);
+    const tx = factory.getDeployTransaction(runtimeCode);
     console.log(await provider.send('eth_call', [{
-      data: tx
-    }]));
+      data: tx.data
+    }, 'latest']));
   });
 });
-	

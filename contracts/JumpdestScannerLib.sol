@@ -29,6 +29,7 @@ library JumpdestScannerLib {
       } else if (op == OP_JUMPDEST) {
         ptr.setBit(i);
 	lastSeen = i;
+        i++;
       }
     } 
     uint256 length = (lastSeen * 8) / 8; // fit to the minimum amount ot bytes for the bitfield
