@@ -30,7 +30,7 @@ library JumpdestScannerLib {
         ptr.setBit(i);
 	lastSeen = i;
         i++;
-      }
+      } else i++;
     } 
     uint256 length = (lastSeen * 8) / 8; // fit to the minimum amount ot bytes for the bitfield
     result = new bytes(length); // make sure freeptr gets fixed
