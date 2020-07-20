@@ -48,4 +48,14 @@ library JumpdestScannerLib {
   function storeJumpdestMap(bytes memory runtimeCode, bytes32 salt) internal returns (address result) {
     result = RStoreLib.store(generateJumpdestMap(runtimeCode), salt);
   }
+  function getCode(address target) internal view returns (bytes memory result) {
+    uint256 sz;
+    assembly {
+      sz := extcodesize(target)
+    }
+    result = new bytes(sz);
+    assembly {
+      extcodecopy(target, add(result, 0x20), 0, sz)
+    }
+  }
 }

@@ -13,27 +13,27 @@
       "type": "constructor"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.8+commit.0bbfe453\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"runtimeCode\",\"type\":\"bytes\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/ray/jumpdest-scanner/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/ray/jumpdest-scanner/contracts/BitsLib.sol\":{\"keccak256\":\"0x2c4e4c274e3e3f48c5668a3b36d0a9188db796f15726fb1886566e686c61786d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://199ceb964acf90eba86ae94eb884306344c6928f477b8bea14f7101fc1e45587\",\"dweb:/ipfs/QmQxNeKKNTnXB6SmAWzxB251DDe7srY745nJM8io4WL3k7\"]},\"/home/ray/jumpdest-scanner/contracts/JumpdestScannerLib.sol\":{\"keccak256\":\"0x8ed777978babbe3a1121261843181bae0ff7286d3857e8c091659acdbc38156b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c6a087dd864a5d1be0c7178a8a3d23e3a9a5f6cc48d5d04cb9d7035bd3e2e1f1\",\"dweb:/ipfs/QmS8VePpYJsGro7jDfGkTmWAigkv5zTLZ2a46Qnc8fjcKF\"]},\"/home/ray/jumpdest-scanner/contracts/MemcpyLib.sol\":{\"keccak256\":\"0x7260cadf3001586f823b243a2d86f19c19075de3286486f3c4109149f285b6ef\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b19200779dcbc84cbec60220e161250faa2bae31bf66c54057fed799f4d74955\",\"dweb:/ipfs/QmWCoHmzNrURkoJTxHvMSFPc8FW9XtvNwp241EqtCw8cvJ\"]},\"/home/ray/jumpdest-scanner/contracts/RStoreLib.sol\":{\"keccak256\":\"0xe296ef7df41554080c06cf351f1944b92f5642f36e19259c2b3644fda3058e30\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d4ca759600583074e9d66f7e9ce414e745dd8ae59ce2d4ca357f4210b8864ffb\",\"dweb:/ipfs/QmWeY5CDWWWtvMafWowCftrYBBxquSUzhjPiWR7zdCEveM\"]},\"/home/ray/jumpdest-scanner/contracts/Test.sol\":{\"keccak256\":\"0x26710b3e84fd39eb7dfb262aed09d381698f2f022b378e548d46770330f2e541\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://872dd56b1c18ad1d985665ad3664190c271f402b6ab0a60f868c8967a57a646d\",\"dweb:/ipfs/QmRuSoSK7qkUxjhJzf6m1c8Y3mby84weqViNEUdnCDDE5z\"]},\"@openzeppelin/contracts/utils/Create2.sol\":{\"keccak256\":\"0x66d1ed2a353be8d2492833a185c53a8f1de8d8fa575a201e9825cf334d79659a\",\"urls\":[\"bzz-raw://a2e9b79e9cf5b398cd29b30df860a6521eefadd9882a346c423afbee5aee606e\",\"dweb:/ipfs/QmUq7gfqR5x1DaMpRKkWwmLMGLPzqUQhqhFEJ2vcgvFraH\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506040516102203803806102208339818101604052602081101561003357600080fd5b810190808051604051939291908464010000000082111561005357600080fd5b90830190602082018581111561006857600080fd5b825164010000000081118282018810171561008257600080fd5b82525081516020918201929091019080838360005b838110156100af578181015183820152602001610097565b50505050905090810190601f1680156100dc5780820380516001836020036101000a031916815260200191505b5060405250505060606100f88261010260201b6100091760201c565b9050805181602001f35b606060006101176001600160e01b036101fa16565b60200190506000805b845181101561019d57600061013e84836001600160e01b0361020016565b9050606081101580156101515750608081105b15610163579081016060190190610197565b605b81141561019057610183828561020c60201b6100e91790919060201c565b9091506001820190610197565b6001909101905b50610120565b506008818102046060816001600160401b03811180156101bc57600080fd5b506040519080825280601f01601f1916602001820160405280156101e7576020820181803683370190505b505050601f199092019190915250919050565b60405190565b01601e19015160ff1690565b610100816007161c60088204830153505056fe",
-  "deployedBytecode": "0x6080604052600080fd5b606060006100156100fc565b60200190506000805b845181101561008b5760006100338483610102565b9050606081101580156100465750608081105b15610058579081016060190190610085565b605b81141561007e57610071848363ffffffff6100e916565b9091506001820190610085565b6001909101905b5061001e565b5060088181020460608167ffffffffffffffff811180156100ab57600080fd5b506040519080825280601f01601f1916602001820160405280156100d6576020820181803683370190505b505050601f199092019190915250919050565b610100816007161c600882048301535050565b60405190565b01601e19015160ff169056fea2646970667358221220ccd47036ccdfebcc4af0207c31ed2fc9c292a4982e1642661020502f017a842864736f6c63430006080033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.8+commit.0bbfe453\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"runtimeCode\",\"type\":\"bytes\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/ray/jumpdest-scanner/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/ray/jumpdest-scanner/contracts/BitsLib.sol\":{\"keccak256\":\"0xba192d9de008a34f9d90356738718a65d37270a7962a6a2daf74cf0ee1c4d19c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2bda2ee100838235f980f03cb8d94c1f3ee563a011d9fa8ef06e84f53d07e182\",\"dweb:/ipfs/QmWcngHecbBQnweuB9PSeSUtL5pCtAvsx4bh53xCxpZoKt\"]},\"/home/ray/jumpdest-scanner/contracts/JumpdestScannerLib.sol\":{\"keccak256\":\"0xae6d24a47c40ee0e25762d7789289238472e1e612e80944a85528ef9c3b49a8b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3e99c7e1f2562b4c7e3626e959f0653789ee3fdfd1b7e111d7af7f1d2fa9aeb7\",\"dweb:/ipfs/QmaxpQEaUX4C3uHWS9gTS6f8P4QBXqfYE9g39CDbqCFX3C\"]},\"/home/ray/jumpdest-scanner/contracts/MemcpyLib.sol\":{\"keccak256\":\"0x7260cadf3001586f823b243a2d86f19c19075de3286486f3c4109149f285b6ef\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b19200779dcbc84cbec60220e161250faa2bae31bf66c54057fed799f4d74955\",\"dweb:/ipfs/QmWCoHmzNrURkoJTxHvMSFPc8FW9XtvNwp241EqtCw8cvJ\"]},\"/home/ray/jumpdest-scanner/contracts/RStoreLib.sol\":{\"keccak256\":\"0xe296ef7df41554080c06cf351f1944b92f5642f36e19259c2b3644fda3058e30\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d4ca759600583074e9d66f7e9ce414e745dd8ae59ce2d4ca357f4210b8864ffb\",\"dweb:/ipfs/QmWeY5CDWWWtvMafWowCftrYBBxquSUzhjPiWR7zdCEveM\"]},\"/home/ray/jumpdest-scanner/contracts/Test.sol\":{\"keccak256\":\"0x26710b3e84fd39eb7dfb262aed09d381698f2f022b378e548d46770330f2e541\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://872dd56b1c18ad1d985665ad3664190c271f402b6ab0a60f868c8967a57a646d\",\"dweb:/ipfs/QmRuSoSK7qkUxjhJzf6m1c8Y3mby84weqViNEUdnCDDE5z\"]},\"@openzeppelin/contracts/utils/Create2.sol\":{\"keccak256\":\"0x66d1ed2a353be8d2492833a185c53a8f1de8d8fa575a201e9825cf334d79659a\",\"urls\":[\"bzz-raw://a2e9b79e9cf5b398cd29b30df860a6521eefadd9882a346c423afbee5aee606e\",\"dweb:/ipfs/QmUq7gfqR5x1DaMpRKkWwmLMGLPzqUQhqhFEJ2vcgvFraH\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516102453803806102458339818101604052602081101561003357600080fd5b810190808051604051939291908464010000000082111561005357600080fd5b90830190602082018581111561006857600080fd5b825164010000000081118282018810171561008257600080fd5b82525081516020918201929091019080838360005b838110156100af578181015183820152602001610097565b50505050905090810190601f1680156100dc5780820380516001836020036101000a031916815260200191505b5060405250505060606100f88261010260201b6100091760201c565b9050805181602001f35b606080600883516008018161011357fe5b046001600160401b038111801561012957600080fd5b506040519080825280601f01601f191660200182016040528015610154576020820181803683370190505b509050600061016b826001600160e01b0361021616565b90506000610181856001600160e01b0361021616565b90506000805b86518110156102045760006101a584836001600160e01b0361021c16565b9050606081101580156101b85750608081105b156101ca57908101605e1901906101fe565b605b8114156101f7576101ea828661022860201b6100fc1790919060201c565b90915060018201906101fe565b6001909101905b50610187565b50600890810104835250909392505050565b60200190565b01601e19015160ff1690565b600881048083016080836007161c601f8203511781535050505056fe",
+  "deployedBytecode": "0x6080604052600080fd5b606080600883516008018161001a57fe5b0467ffffffffffffffff8111801561003157600080fd5b506040519080825280601f01601f19166020018201604052801561005c576020820181803683370190505b509050600061006a82610118565b9050600061007785610118565b90506000805b86518110156100ea576000610092848361011e565b9050606081101580156100a55750608081105b156100b757908101605e1901906100e4565b605b8114156100dd576100d0858363ffffffff6100fc16565b90915060018201906100e4565b6001909101905b5061007d565b50600890810104835250909392505050565b600881048083016080836007161c601f82035117815350505050565b60200190565b01601e19015160ff169056fea2646970667358221220ef1259ada2f5fbcdebac6856ad5ae32c5024d1ac9919743afaec7242909d280564736f6c63430006080033",
   "immutableReferences": {},
-  "sourceMap": "122:208:5:-:0;;;140:188;5:9:-1;2:2;;;27:1;24;17:12;2:2;140:188:5;;;;;;;;;;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;140:188:5;;;;;;;;;;;;;19:11:-1;14:3;11:20;8:2;;;44:1;41;34:12;8:2;62:21;;;;123:4;114:14;;138:31;;;135:2;;;182:1;179;172:12;135:2;213:10;;261:11;244:29;;285:43;;;282:58;-1:-1;233:115;230:2;;;361:1;358;351:12;230:2;372:25;;-1:-1;140:188:5;;420:4:-1;411:14;;;;140:188:5;;;;;411:14:-1;140:188:5;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;140:188:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;191:16;210:51;249:11;210:38;;;;;:51;;:::i;:::-;191:70;;313:3;307:10;301:3;295:4;291:14;284:34;617:783:1;695:12;715:11;729:12;-1:-1:-1;;;;;729:10:1;:12;:::i;:::-;744:4;729:19;;-1:-1:-1;783:16:1;;809:332;833:11;:18;829:1;:22;809:332;;;862:10;875:16;884:3;889:1;-1:-1:-1;;;;;875:8:1;:16;:::i;:::-;862:29;;270:4;903:2;:19;;:39;;;;;309:11;926:2;:16;903:39;899:235;;;954:29;;;-1:-1:-1;;954:29:1;;899:235;;;229:4;1046:2;:17;1042:92;;;1075:13;1086:1;1075:3;:10;;;;;;:13;;;;:::i;:::-;1102:1;;-1:-1:-1;1113:3:1;;;;1042:92;;;1131:3;;;;;1042:92;809:332;;;;-1:-1:-1;1181:1:1;1165:12;;;1164:18;1243:19;1164:18;-1:-1:-1;;;;;1265:17:1;;2:2:-1;;;;27:1;24;17:12;2:2;1265:17:1;;;;;;;;;;;;;;;;;;;;;;;;;;21:6:-1;;108:14;1265:17:1;87:42:-1;143:17;;-1:-1;1265:17:1;-1:-1:-1;;;;;1347:14:1;;;1368:22;;;;-1:-1:-1;1329:67:1;;-1:-1:-1;1329:67:1:o;324:115::-;424:4;418:11;;400:35::o;442:172::-;570:26;-1:-1:-1;;570:26:1;564:33;599:4;560:44;;542:68::o;77:182:0:-;242:5;228:11;223:3;219:21;215:33;208:3;195:11;191:21;181:8;177:36;169:80;161:94;;:::o",
-  "deployedSourceMap": "122:208:5:-:0;;;12:1:-1;9;2:12;617:783:1;695:12;715:11;729:12;:10;:12::i;:::-;744:4;729:19;;-1:-1:-1;783:16:1;;809:332;833:11;:18;829:1;:22;809:332;;;862:10;875:16;884:3;889:1;875:8;:16::i;:::-;862:29;;270:4;903:2;:19;;:39;;;;;309:11;926:2;:16;903:39;899:235;;;954:29;;;-1:-1:-1;;954:29:1;;899:235;;;229:4;1046:2;:17;1042:92;;;1075:13;:3;1086:1;1075:13;:10;:13;:::i;:::-;1102:1;;-1:-1:-1;1113:3:1;;;;1042:92;;;1131:3;;;;;1042:92;809:332;;;;-1:-1:-1;1181:1:1;1165:12;;;1164:18;1243:19;1164:18;1265:17;;;2:2:-1;;;;27:1;24;17:12;2:2;1265:17:1;;;;;;;;;;;;;;;;;;;;;;;;;;21:6:-1;;108:14;1265:17:1;87:42:-1;143:17;;-1:-1;1265:17:1;-1:-1:-1;;;;;1347:14:1;;;1368:22;;;;-1:-1:-1;1329:67:1;;-1:-1:-1;1329:67:1:o;77:182:0:-;242:5;228:11;223:3;219:21;215:33;208:3;195:11;191:21;181:8;177:36;169:80;161:94;;:::o;324:115:1:-;424:4;418:11;;400:35::o;442:172::-;570:26;-1:-1:-1;;570:26:1;564:33;599:4;560:44;;542:68::o",
+  "sourceMap": "122:208:5:-:0;;;140:188;5:9:-1;2:2;;;27:1;24;17:12;2:2;140:188:5;;;;;;;;;;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;140:188:5;;;;;;;;;;;;;19:11:-1;14:3;11:20;8:2;;;44:1;41;34:12;8:2;62:21;;;;123:4;114:14;;138:31;;;135:2;;;182:1;179;172:12;135:2;213:10;;261:11;244:29;;285:43;;;282:58;-1:-1;233:115;230:2;;;361:1;358;351:12;230:2;372:25;;-1:-1;140:188:5;;420:4:-1;411:14;;;;140:188:5;;;;;411:14:-1;140:188:5;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;140:188:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;191:16;210:51;249:11;210:38;;;;;:51;;:::i;:::-;191:70;;313:3;307:10;301:3;295:4;291:14;284:34;749:802:1;827:12;847:19;906:1;880:11;:18;901:1;880:22;879:28;;;;;;-1:-1:-1;;;;;869:39:1;;5:9:-1;2:2;;;27:1;24;17:12;2:2;869:39:1;;;;;;;;;;;;;;;;;;;;;;;;;;21:6:-1;;108:14;869:39:1;87:42:-1;143:17;;-1:-1;869:39:1;-1:-1:-1;847:61:1;-1:-1:-1;946:11:1;960:13;847:61;-1:-1:-1;;;;;960:5:1;:13;:::i;:::-;946:27;-1:-1:-1;979:15:1;997:18;1003:11;-1:-1:-1;;;;;997:5:1;:18;:::i;:::-;979:36;-1:-1:-1;1021:16:1;;1047:334;1071:11;:18;1067:1;:22;1047:334;;;1100:10;1113:20;1122:7;1131:1;-1:-1:-1;;;;;1113:8:1;:20;:::i;:::-;1100:33;;270:4;1145:2;:19;;:39;;;;;309:11;1168:2;:16;1145:39;1141:233;;;1196:27;;;-1:-1:-1;;1196:27:1;;1141:233;;;229:4;1286:2;:17;1282:92;;;1315:13;1326:1;1315:3;:10;;;;;;:13;;;;:::i;:::-;1342:1;;-1:-1:-1;1353:3:1;;;;1282:92;;;1371:3;;;;;1282:92;1047:334;;;;-1:-1:-1;1421:1:1;1405:12;;;1404:18;1500:22;;-1:-1:-1;1500:22:1;;;-1:-1:-1;;;749:802:1:o;442:129::-;556:4;544:17;;529:38::o;574:172::-;702:26;-1:-1:-1;;702:26:1;696:33;731:4;692:44;;674:68::o;77:268:0:-;206:3;193:11;189:21;242:12;232:8;228:27;328:4;314:11;309:3;305:21;301:32;293:4;288:3;284:14;278:21;275:59;270:3;262:73;;;161:180;;:::o",
+  "deployedSourceMap": "122:208:5:-:0;;;12:1:-1;9;2:12;749:802:1;827:12;847:19;906:1;880:11;:18;901:1;880:22;879:28;;;;;;869:39;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;869:39:1;;;;;;;;;;;;;;;;;;;;;;;;;;21:6:-1;;108:14;869:39:1;87:42:-1;143:17;;-1:-1;869:39:1;;847:61;;946:11;960:13;966:6;960:5;:13::i;:::-;946:27;;979:15;997:18;1003:11;997:5;:18::i;:::-;979:36;-1:-1:-1;1021:16:1;;1047:334;1071:11;:18;1067:1;:22;1047:334;;;1100:10;1113:20;1122:7;1131:1;1113:8;:20::i;:::-;1100:33;;270:4;1145:2;:19;;:39;;;;;309:11;1168:2;:16;1145:39;1141:233;;;1196:27;;;-1:-1:-1;;1196:27:1;;1141:233;;;229:4;1286:2;:17;1282:92;;;1315:13;:3;1326:1;1315:13;:10;:13;:::i;:::-;1342:1;;-1:-1:-1;1353:3:1;;;;1282:92;;;1371:3;;;;;1282:92;1047:334;;;;-1:-1:-1;1421:1:1;1405:12;;;1404:18;1500:22;;-1:-1:-1;1500:22:1;;;-1:-1:-1;;;749:802:1:o;77:268:0:-;206:3;193:11;189:21;242:12;232:8;228:27;328:4;314:11;309:3;305:21;301:32;293:4;288:3;284:14;278:21;275:59;270:3;262:73;;;161:180;;:::o;442:129:1:-;556:4;544:17;;529:38::o;574:172::-;702:26;-1:-1:-1;;702:26:1;696:33;731:4;692:44;;674:68::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.6.0;\n\nimport { JumpdestScannerLib } from \"./JumpdestScannerLib.sol\";\n\ncontract Test {\n  constructor(bytes memory runtimeCode) public {\n    bytes memory map = JumpdestScannerLib.generateJumpdestMap(runtimeCode);\n    assembly {\n      return(add(0x20, map), mload(map))\n    }\n  }\n}\n\n",
   "sourcePath": "/home/ray/jumpdest-scanner/contracts/Test.sol",
   "ast": {
     "absolutePath": "/home/ray/jumpdest-scanner/contracts/Test.sol",
     "exportedSymbols": {
       "Test": [
-        289
+        330
       ]
     },
-    "id": 290,
+    "id": 331,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 272,
+        "id": 313,
         "literals": [
           "solidity",
           ">=",
@@ -46,16 +46,16 @@
       {
         "absolutePath": "/home/ray/jumpdest-scanner/contracts/JumpdestScannerLib.sol",
         "file": "./JumpdestScannerLib.sol",
-        "id": 274,
+        "id": 315,
         "nodeType": "ImportDirective",
-        "scope": 290,
-        "sourceUnit": 162,
+        "scope": 331,
+        "sourceUnit": 203,
         "src": "58:62:5",
         "symbolAliases": [
           {
             "foreign": {
               "argumentTypes": null,
-              "id": 273,
+              "id": 314,
               "name": "JumpdestScannerLib",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -78,32 +78,32 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 289,
+        "id": 330,
         "linearizedBaseContracts": [
-          289
+          330
         ],
         "name": "Test",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 287,
+              "id": 328,
               "nodeType": "Block",
               "src": "185:143:5",
               "statements": [
                 {
                   "assignments": [
-                    280
+                    321
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 280,
+                      "id": 321,
                       "mutability": "mutable",
                       "name": "map",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-                      "scope": 287,
+                      "scope": 328,
                       "src": "191:16:5",
                       "stateVariable": false,
                       "storageLocation": "memory",
@@ -112,7 +112,7 @@
                         "typeString": "bytes"
                       },
                       "typeName": {
-                        "id": 279,
+                        "id": 320,
                         "name": "bytes",
                         "nodeType": "ElementaryTypeName",
                         "src": "191:5:5",
@@ -125,17 +125,17 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 285,
+                  "id": 326,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 283,
+                        "id": 324,
                         "name": "runtimeCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 276,
+                        "referencedDeclaration": 317,
                         "src": "249:11:5",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
@@ -152,32 +152,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 281,
+                        "id": 322,
                         "name": "JumpdestScannerLib",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 161,
+                        "referencedDeclaration": 202,
                         "src": "210:18:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_JumpdestScannerLib_$161_$",
+                          "typeIdentifier": "t_type$_t_contract$_JumpdestScannerLib_$202_$",
                           "typeString": "type(library JumpdestScannerLib)"
                         }
                       },
-                      "id": 282,
+                      "id": 323,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "generateJumpdestMap",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 140,
+                      "referencedDeclaration": 161,
                       "src": "210:38:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_bytes_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (bytes memory) pure returns (bytes memory)"
                       }
                     },
-                    "id": 284,
+                    "id": 325,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -259,28 +259,28 @@
                   "evmVersion": "istanbul",
                   "externalReferences": [
                     {
-                      "declaration": 280,
+                      "declaration": 321,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "301:3:5",
                       "valueSize": 1
                     },
                     {
-                      "declaration": 280,
+                      "declaration": 321,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "313:3:5",
                       "valueSize": 1
                     }
                   ],
-                  "id": 286,
+                  "id": 327,
                   "nodeType": "InlineAssembly",
                   "src": "267:57:5"
                 }
               ]
             },
             "documentation": null,
-            "id": 288,
+            "id": 329,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -288,17 +288,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 277,
+              "id": 318,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 276,
+                  "id": 317,
                   "mutability": "mutable",
                   "name": "runtimeCode",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 288,
+                  "scope": 329,
                   "src": "152:24:5",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -307,7 +307,7 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 275,
+                    "id": 316,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "152:5:5",
@@ -323,19 +323,19 @@
               "src": "151:26:5"
             },
             "returnParameters": {
-              "id": 278,
+              "id": 319,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "185:0:5"
             },
-            "scope": 289,
+            "scope": 330,
             "src": "140:188:5",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 290,
+        "scope": 331,
         "src": "122:208:5"
       }
     ],
@@ -345,15 +345,15 @@
     "absolutePath": "/home/ray/jumpdest-scanner/contracts/Test.sol",
     "exportedSymbols": {
       "Test": [
-        289
+        330
       ]
     },
-    "id": 290,
+    "id": 331,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 272,
+        "id": 313,
         "literals": [
           "solidity",
           ">=",
@@ -366,16 +366,16 @@
       {
         "absolutePath": "/home/ray/jumpdest-scanner/contracts/JumpdestScannerLib.sol",
         "file": "./JumpdestScannerLib.sol",
-        "id": 274,
+        "id": 315,
         "nodeType": "ImportDirective",
-        "scope": 290,
-        "sourceUnit": 162,
+        "scope": 331,
+        "sourceUnit": 203,
         "src": "58:62:5",
         "symbolAliases": [
           {
             "foreign": {
               "argumentTypes": null,
-              "id": 273,
+              "id": 314,
               "name": "JumpdestScannerLib",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -398,32 +398,32 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 289,
+        "id": 330,
         "linearizedBaseContracts": [
-          289
+          330
         ],
         "name": "Test",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 287,
+              "id": 328,
               "nodeType": "Block",
               "src": "185:143:5",
               "statements": [
                 {
                   "assignments": [
-                    280
+                    321
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 280,
+                      "id": 321,
                       "mutability": "mutable",
                       "name": "map",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-                      "scope": 287,
+                      "scope": 328,
                       "src": "191:16:5",
                       "stateVariable": false,
                       "storageLocation": "memory",
@@ -432,7 +432,7 @@
                         "typeString": "bytes"
                       },
                       "typeName": {
-                        "id": 279,
+                        "id": 320,
                         "name": "bytes",
                         "nodeType": "ElementaryTypeName",
                         "src": "191:5:5",
@@ -445,17 +445,17 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 285,
+                  "id": 326,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 283,
+                        "id": 324,
                         "name": "runtimeCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 276,
+                        "referencedDeclaration": 317,
                         "src": "249:11:5",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
@@ -472,32 +472,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 281,
+                        "id": 322,
                         "name": "JumpdestScannerLib",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 161,
+                        "referencedDeclaration": 202,
                         "src": "210:18:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_JumpdestScannerLib_$161_$",
+                          "typeIdentifier": "t_type$_t_contract$_JumpdestScannerLib_$202_$",
                           "typeString": "type(library JumpdestScannerLib)"
                         }
                       },
-                      "id": 282,
+                      "id": 323,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "generateJumpdestMap",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 140,
+                      "referencedDeclaration": 161,
                       "src": "210:38:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_bytes_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (bytes memory) pure returns (bytes memory)"
                       }
                     },
-                    "id": 284,
+                    "id": 325,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -579,28 +579,28 @@
                   "evmVersion": "istanbul",
                   "externalReferences": [
                     {
-                      "declaration": 280,
+                      "declaration": 321,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "301:3:5",
                       "valueSize": 1
                     },
                     {
-                      "declaration": 280,
+                      "declaration": 321,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "313:3:5",
                       "valueSize": 1
                     }
                   ],
-                  "id": 286,
+                  "id": 327,
                   "nodeType": "InlineAssembly",
                   "src": "267:57:5"
                 }
               ]
             },
             "documentation": null,
-            "id": 288,
+            "id": 329,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -608,17 +608,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 277,
+              "id": 318,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 276,
+                  "id": 317,
                   "mutability": "mutable",
                   "name": "runtimeCode",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 288,
+                  "scope": 329,
                   "src": "152:24:5",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -627,7 +627,7 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 275,
+                    "id": 316,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "152:5:5",
@@ -643,19 +643,19 @@
               "src": "151:26:5"
             },
             "returnParameters": {
-              "id": 278,
+              "id": 319,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "185:0:5"
             },
-            "scope": 289,
+            "scope": 330,
             "src": "140:188:5",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 290,
+        "scope": 331,
         "src": "122:208:5"
       }
     ],
@@ -667,7 +667,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.0",
-  "updatedAt": "2020-05-31T01:36:51.872Z",
+  "updatedAt": "2020-07-20T12:44:41.193Z",
   "devdoc": {
     "methods": {}
   },
