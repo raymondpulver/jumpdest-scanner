@@ -12,7 +12,7 @@
     "test": "truffle test"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^3.0.1",
+    "@openzeppelin/contracts": "^4.4.2",
     "emasm": "https://bitbucket.org/raypulver/emasm",
     "ethers": "^4.0.47",
     "truffle": "^5.1.27"
